@@ -1,0 +1,26 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron{
+    background-color: #FFF5EE;
+}
+
+#gradient {
+    /* fallback color */
+    background-color: #E0FFFF;
+    /* fallback image */
+    background-image: url(images/fallback-image.png);
+    /* Firefox 3.6+ */
+    background-image: -moz-linear-gradient(#48D1CC,
+     #E0FFFF);
+    /* Safari 4+, Chrome 1+ */
+    background-image: -webkit-gradient(linear, 0% 0%,
+     0% 100%, from(#E0FFFF), to(#48D1CC));
+    /* Safari 5.1+, Chrome 10+ */
+    background-image: -webkit-linear-gradient(#48D1CC,
+    #E0FFFF);
+    /* Opera 11.10+ */
+    background-image: -o-linear-gradient(#48D1CC,
+    #E0FFFF);
+}
